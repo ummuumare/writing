@@ -1,0 +1,72 @@
+input {
+   background-color: aqua;
+}
+input:hover {
+   background-color:aliceblue;
+}
+h1 {
+   color:blueviolet;
+   font-size: 60px;
+   font-family: Arial, Helvetica, sans-serif; 
+   text-align: center;
+}
+h2 {
+   font-size: 40px;
+   text-align: center;
+}
+h2::before {
+   content: url(watch.gif);
+}
+body {
+   background-color: ;
+   /*background-image: linear-gradient(yellow, white, purple);*/
+}
+p {
+   color:ghostwhite;
+   font-size: 20px ;
+   text-indent: px;
+   line-height: 20px;
+       
+}
+/*p::first-letter {color: black; font-size: 35px; font-family: Arial, Helvetica, sans-serif;}*/
+
+a {
+   color: aliceblue;
+}
+a:link {
+   color:antiquewhite;
+   font-size: 20px;
+}
+a:hover {
+   color:aqua;
+}
+
+ 
+ #box {
+   height: 90px;
+   width: 150px;
+   border:solid  3px;
+   margin-left: 350px;
+   text-align: center;
+   font-size: 30px;
+   font-family: sans-serif;
+   font-style: oblique;
+   color: rgba(102, 130, 0, 0.766);
+ }
+
+ #box:hover {
+   background-color: yellow;
+   border-color:blue ;
+ }
+button {
+   margin-left: 300px;
+   margin-top: 200px;
+   width: 150px;
+   height: 40px;
+   font-size: 30px;
+   font-style:normal
+}
+
+
+
+
